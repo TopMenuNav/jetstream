@@ -8,5 +8,6 @@ permissions:
   issues: write
 
 jobs:
-  help-wanted:
+  help-wanted: composer require symfony/cache
+
     uses: laravel/.github/.github/workflows/issues.yml@main
